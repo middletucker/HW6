@@ -21,6 +21,7 @@ char ComputerSelectRPSLK();
 int main()
 {
     // declare vars
+    char userResult;
     char userPick;                  // user's selection for game
     bool valid_pick = false;        // flag controlled while loop for obtaining user input
     char computerPick;              // randomly selected computer selection for game
@@ -54,11 +55,44 @@ int main()
     TranslatePick(1, computerPick); // Inform user of computer selection
     
     // HANDOUT (PART A): Determine the winner of the game.
-    
-    
+      // User picks R
+    if (userPick == 'R')
+    {
+      if (computerPick == 'S' || )
+    }
+    else if (userPick == 'P')
+    {
+      
+    }
+    else if (userPick == 'S')
+    {
+      
+    }
+    else if (userPick == 'L')
+    {
+      
+    }
+    else if (userPick == 'K')
+    {
+      
+    }
+    else
+    {
+      cout << "Error from DetermineWinner\n";
+    }
     
     // HANDOUT (PART B): Inform the user who won.
-    
+    switch (userResult)
+      {
+        case 'W' :
+        cout << "User Wins\n";
+        case 'L' :
+        cout << "Computer Wins. Better luck next time! \n";
+        case 'T' :
+        cout << "Its a tie!\n"; 
+        default :
+        cout << "Error. Try again \n";
+      }
     
     
     // HANDOUT (PART C): Randomly display celebratory messages if user won.
@@ -142,12 +176,3 @@ char ComputerSelectRPSLK()
     
     return randPickChar;
 }
-
-
-
-
-
-
-
-
-

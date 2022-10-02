@@ -55,12 +55,31 @@ int main()
     TranslatePick(1, computerPick); // Inform user of computer selection
     
     // HANDOUT (PART A): Determine the winner of the game.
-    if (userPick = 'R' && computerPick = 'P')
-      userResult = 'L';
-    if else (userPick = 'R' && computerPick = 'S')
-      userResult = 'W';
-    if else (userPick = 'R' &&)
-    
+      // User picks R
+    if (userPick == 'R')
+    {
+      if (computerPick == 'S' || )
+    }
+    else if (userPick == 'P')
+    {
+      
+    }
+    else if (userPick == 'S')
+    {
+      
+    }
+    else if (userPick == 'L')
+    {
+      
+    }
+    else if (userPick == 'K')
+    {
+      
+    }
+    else
+    {
+      cout << "Error from DetermineWinner\n";
+    }
     
     // HANDOUT (PART B): Inform the user who won.
     switch (userResult)
